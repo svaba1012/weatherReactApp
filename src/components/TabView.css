@@ -1,0 +1,8 @@
+.tabs-container {
+  width: 390px;
+  cursor: pointer;
+}
+
+.tab-body {
+  overflow-x: scroll;
+}

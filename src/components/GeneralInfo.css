@@ -1,0 +1,3 @@
+.ui.items > .item > .image:not(.ui) {
+  width: 90px;
+}

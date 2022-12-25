@@ -1,0 +1,24 @@
+.day-in-week {
+  text-align: center;
+}
+
+.temp-in-week {
+  text-align: center;
+}
+
+.card-in-week {
+  width: 90px;
+  margin-left: 15px;
+  margin-right: 15px;
+  cursor: pointer;
+}
+
+.border {
+  box-shadow: 0 1px 2px 0 rgb(34 36 38 / 15%);
+  border-radius: 0.28571429rem;
+  border: 1px solid rgba(34, 36, 38, 0.15);
+}
+
+.img-in-week {
+  width: inherit;
+}
