@@ -1,7 +1,7 @@
 # Getting Started with Create React App
 
-##App view
-!appView(https://github.com/svaba1012/weatherReactApp/blob/master/image.jpg?raw=true)
+## App view
+![appView](./appView.png?raw=true)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
