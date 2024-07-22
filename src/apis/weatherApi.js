@@ -1,10 +1,13 @@
 import axios from "axios";
 
-const _apiKey = "2884eae33f8d48e6b2d121941222112";
+const _apiKey = process.env.REACT_APP_WETHER_API_KEY;
 
 export default axios.create({
-  baseURL: "http://api.weatherapi.com/v1",
+  baseURL: process.env.REACT_APP_WETHER_API_URL,
   params: {
     key: _apiKey,
+  },
+  headers: {
+    "Access-Control-Allow-Origin": "*",
   },
 });
